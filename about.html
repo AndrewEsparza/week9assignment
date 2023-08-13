@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTR Website About</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link to your custom stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">GTR</a>
+    <!-- Navbar toggler button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar collapse content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <!-- Navigation links -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4 text-center">
+    <main role="main">
+      <!-- Main content -->
+      <h1>About GTR</h1>
+      <p>The GTR provides the best performance for its price point!!!</p>
+      
+      <!-- Table with GTR features -->
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Engine</td>
+            <td>Twin-turbo V6</td>
+          </tr>
+          <tr>
+            <td>Horsepower</td>
+            <td>600+</td>
+          </tr>
+          <tr>
+            <td>Top Speed</td>
+            <td>Over 200 mph</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!-- Form for favorite car and current car -->
+      <form>
+        <label for="favoriteCar">Favorite Car</label>
+        <input type="text" id="favoriteCar" placeholder="Enter your favorite car">
+        <label for="currentCar">Current Car</label>
+        <input type="text" id="currentCar" placeholder="Enter your current car">
+      </form>
+
+      <!--
